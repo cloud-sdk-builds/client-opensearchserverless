@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-opensearchserverless`](https://www.npmjs.com/package/@aws-sdk/client-opensearchserverless/v/3.598.0).
+[`@aws-sdk/client-opensearchserverless`](https://www.npmjs.com/package/@aws-sdk/client-opensearchserverless/v/3.600.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.598.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.600.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-tgAecQU46M5uVjvgYQq80T7Geo9KpAa/o5y28xoi1WYOBvY9y3Cj/L0ObcY4PNVj
+sha384-lF4dg85sIDGquZ5RnnM9xn00r6gWHjSXSG5YiyY3bJiaMgyGIm9bI1ei+79BILHg
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-opensearchserverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.598.0/index.min.mjs"
+            "@aws-sdk/client-opensearchserverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.600.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.598.0/index.min.mjs": "sha384-tgAecQU46M5uVjvgYQq80T7Geo9KpAa/o5y28xoi1WYOBvY9y3Cj/L0ObcY4PNVj"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.600.0/index.min.mjs": "sha384-lF4dg85sIDGquZ5RnnM9xn00r6gWHjSXSG5YiyY3bJiaMgyGIm9bI1ei+79BILHg"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-opensearchserverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.598.0/index.min.mjs"
+                        "@aws-sdk/client-opensearchserverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.600.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.598.0/index.min.mjs": "sha384-tgAecQU46M5uVjvgYQq80T7Geo9KpAa/o5y28xoi1WYOBvY9y3Cj/L0ObcY4PNVj"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-opensearchserverless@3.600.0/index.min.mjs": "sha384-lF4dg85sIDGquZ5RnnM9xn00r6gWHjSXSG5YiyY3bJiaMgyGIm9bI1ei+79BILHg"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.598.0`)
+* Always pin to a specific version (`@3.600.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-opensearchserverless/blob/refs/tags/3.598.0/LICENSE
+https://github.com/cloud-sdk-builds/client-opensearchserverless/blob/refs/tags/3.600.0/LICENSE
 ```
 
 ---
